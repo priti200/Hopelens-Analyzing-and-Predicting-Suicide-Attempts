@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Visualization from './Visualization';
 import axios from 'axios';
 
+
 const Preview = () => {
     const [features, setfeatures] = useState(Array(11).fill(''))
     const [loading, setLoading] = useState(false);
